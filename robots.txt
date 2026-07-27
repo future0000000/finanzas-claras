@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sunny-frangipane-d0131a.netlify.app/sitemap.xml
