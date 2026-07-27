@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://future0000000.github.io/finanzas-claras/sitemap.xml
