@@ -8,6 +8,10 @@ body{margin:0;font-family:Georgia,'Times New Roman',serif;background:var(--bg);c
 header{background:var(--panel);border-bottom:1px solid var(--border);padding:1.2rem 1.5rem}
 header a.logo{color:var(--accent);font-family:Arial,sans-serif;font-weight:800;font-size:1.3rem;text-decoration:none;letter-spacing:.5px}
 main{max-width:800px;margin:0 auto;padding:2rem 1.5rem}
+.page-layout{display:grid;grid-template-columns:160px minmax(0,800px) 160px;gap:1.5rem;max-width:1180px;margin:0 auto;padding:0 1rem}
+.sidebar{position:sticky;top:1.5rem;height:fit-content}
+.sidebar .ad-slot{margin:0 0 1.5rem}
+@media(max-width:1000px){.page-layout{grid-template-columns:1fr}.sidebar{position:static;order:3}}
 h1{font-family:Arial,sans-serif;font-size:2rem;color:var(--text);margin-bottom:.3rem}
 h2{font-family:Arial,sans-serif;font-size:1.3rem;color:var(--accent2);margin-top:2rem}
 p{color:var(--text);font-size:1.05rem}
